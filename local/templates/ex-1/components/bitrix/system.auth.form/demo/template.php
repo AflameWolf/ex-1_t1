@@ -104,7 +104,7 @@ if($arResult["FORM_TYPE"] == "login"):
             <li>
                 <a href="<?=$arParams['PROFILE_URL'];?>" ><?=$USER->GetFullName()?> [<?=$USER->GetLogin()?>]</a>
             </li>
-            <li><a href="?logout=yes&<?=bitrix_sessid_get()?>">Выйти</a>
+            <li><a href="?logout=yes&<?=bitrix_sessid_get()?>"><?=GetMessage("LOGOUT")?></a>
 
             </li>
         </ul>

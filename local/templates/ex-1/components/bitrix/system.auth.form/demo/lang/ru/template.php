@@ -24,4 +24,5 @@ $MESS["auth_form_comp_otp"] = "Одноразовый пароль:";
 $MESS["auth_form_comp_otp_remember_title"] = "Запомнить код на этом компьютере";
 $MESS["auth_form_comp_otp_remember"] = "Запомнить код";
 $MESS["auth_form_comp_auth"] = "Авторизация";
+$MESS["LOGOUT"]="Выход";
 ?>
