@@ -4,7 +4,7 @@ $aMenuLinks = Array(
 		"Компания", 
 		"company/", 
 		Array(), 
-		Array(), 
+		Array("Menu_Text"=>"Компания – текст для пункта Компания."), 
 		"" 
 	),
 	Array(
@@ -38,6 +38,20 @@ $aMenuLinks = Array(
 	Array(
 		"Партнерам", 
 		"/partneram/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Отзывы", 
+		"/rew/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Поиск", 
+		"/search/", 
 		Array(), 
 		Array(), 
 		"" 
